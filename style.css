@@ -1,6 +1,10 @@
 *{
 	box-sizing: border-box;
 	font-family: 'Montserrat', sans-serif;
+	background-color: #ffffff;
+}
+a{
+	text-decoration: none;
 }
 body{
 	margin: 0 auto;
@@ -9,7 +13,7 @@ body{
 	height: 100vh;
 }
 span{
-	color: blue;
+	color: #0066f5;
 	text-align: center;
 	font-weight: bold;
 }
@@ -26,5 +30,5 @@ span{
 img{
 	height: 250px;
 	margin-top: 150px;
-	border: 5px solid blue;
+	border: 5px solid #0066f5;
 }
