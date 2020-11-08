@@ -8,28 +8,35 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-   <div>
-        <div>
-            <h1 class="logo">Code The Future</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About</a></li>
-                    <li>Blog</li>
-                    <li>Newsletter</li>
-                    <li class="dropdown">Tech Paths
-                        <ul>
-                            <li><a href="uiux.html">UI/UX Design</a></li> 
-                            <li><a href="webdevelopment.html">Web Development</a></li>                          
-                            <li><a href="mobiledev.html">Mobile Development</a></li>
-                            <li><a href="cybersecurity.html">Cyber Security</a></li>
-                            <li><a href="datascience.html">Data Science</a></li>
-                            <li><a href="hardwareengineering.html">Hardware Engineering</a></li>
-                         </ul>
-                    </li>
-                    <li><a href="waitlist.html">Join Waitlist</a></li>
-                </ul>
-            </nav>
-        </div>
+    <div class="header">
+        <nav>
+            <!-- For the left side of the header containing the brand name -->
+            <div class = "container"> 
+                <div class= "nav-wrapper">
+                    <div class="left-side">
+                        <div class = "tab">
+                            <p>CodeTheFuture</p>
+                        </div>
+                    </div>
+
+                    <!-- For the right side of the header containing the menu elements -->
+
+                    <div class="right-side">
+                        <div class="link-wrapper">
+                            <a href= "index.html"> Home </a>
+                        </div>
+                        <div class="link-wrapper">
+                            <a href= "index.html">Tech Paths</a>
+                        </div> 
+                        <div class="link-wrapper">
+                            <a href= "waitlist.html">Waitlist</a>
+                        </div>
+                       
+                    </div>
+        
+                </div>
+            </div>
+        </nav>
     </div>
 
     <div class="aside">
@@ -60,26 +67,35 @@
         </div>
     </div>
 
-    <footer>
-        <div>
-            <div class="navlinks">
-                <li>About Us</li>
-                <li>Wait List</li>
-                <li>Contact Us</li>
+     <footer class="footer">
+        <div class="footer-wrapper">
+            <div class="about">
+                <p> Contact Us </p>
+                <p> About Us </p>
             </div>
-            <div class="email-form">
-                <span>Subscribe to get the latest news in tech!</span>
-                <input type="email" name="email">
-                <button>Submit</button>
-            </div>
-            <div class="social-media">
-                <span>Follow us on social media for daily updates</span>
-                <i>facebook</i>
-                <i>twitter</i>
-                <i>Linkedn</i>
-                <i>github</i>
+
+            <div class="socials">
+                <div class="newsletter">
+                    <label for="email">Sign up for our Newsletter</label><br><br>
+                    <div class="newsletter-input">
+                        <input type="text" id="newslettter" name="email" placeholder="Enter your email address">
+                        <button type="button" id="submitbutton">SUBMIT</button>
+                    </div>
+
+                </div>
+
+                <div class="connect">
+                    <p> OUR SOCIALS</p>
+                    <div class="images">
+                        <img src="../Benue2-20-Hack2/images/logos_facebook.png" class="facebook" alt="facebook_logo" >
+                        <img src="../Benue2-20-Hack2/images/twitter.png" class="twitter" alt="twitter_logo">
+                        <img src="../Benue2-20-Hack2/images/logos_google-gmail.png" class="gmail" alt="gmail_logo">
+                        <img src="../Benue2-20-Hack2/images/logos_youtube.png" class="youtube" alt="youtube_logo">
+                    </div>
+                </div>
             </div>
         </div>
+        <p> &#169; 2020 CodeTheFuture</p>
     </footer>
 </body>
 </html>
