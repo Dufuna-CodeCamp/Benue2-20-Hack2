@@ -28,3 +28,153 @@ img{
 	margin-top: 150px;
 	border: 5px solid blue;
 }
+
+/* HEADER SECTION */
+.container {
+	max-width: 1200px;
+	position: relative;
+}
+
+.navbar {
+	overflow: hidden;
+	background-color: #047aed;
+	height: 60px;
+	padding-top: 15px;
+}
+
+.navbar a {
+	float: right;
+	font-size: 16px;
+	color: white;
+	text-align: center;
+	padding: 10px 12px;
+	text-decoration: none;
+}
+
+.logo {
+	width: 100px;
+	height: 50px;
+	margin: 0px;
+	float: left;
+	color: #ffffff;
+	margin-left: 40px;
+	padding: 10px 12px;
+}
+
+.dropdown {
+	float: right;
+	overflow: hidden;
+}
+
+.dropdown .dropbtn {
+	font-size: 16px;
+	border: none;
+	outline: none;
+	color: rgb(255, 255, 255);
+	padding: 10px 12px;
+	background-color: #047aed;
+	margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+	background-color: #ddd;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #047aed;
+	min-width: 200px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: -9999;
+}
+
+.dropdown-content a {
+	float: none;
+	color: #ffffff;
+	padding: 10px 12px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+
+.dropdown-content a:hover {
+	background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+footer {
+	background-color: #047aed;
+	display: grid;
+	padding: 20px;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+footer a, footer span, footer li, footer i {
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+.footer-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	justify-content: center;
+	align-items: center;
+	width: 1100px;
+	margin-left: 30px;
+}
+
+.email-forms, .social-media {
+	margin-left: -25px;
+}
+
+.navlinks {
+	margin: -15px 0 0 60px;
+}
+
+.navlinks li {
+	line-height: 2;
+}
+
+.email-form {
+	margin-top: -45px;
+	margin-left: -50px;
+}
+
+.email-form span {
+	font-size: 17.5px;
+	padding-top: 10px;
+}
+
+.email-form input {
+	width: 250px;
+	height: 25px;
+	border: none;
+	margin-top: 10px;
+}
+
+.email-form button {
+	height: 25px;
+	color: #047aed;
+	border: none;
+	border-radius: 5px;
+	background-color: #ffffff;
+}
+
+.social-media {
+	margin-left: 35px;
+}
+
+.social-media a {
+	border: none;
+	margin: 10px;
+}
+
+footer li {
+	list-style-type: none;
+}
